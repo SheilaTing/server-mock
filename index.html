@@ -9,12 +9,12 @@
     <h2 class = "weather">天气：<span></span></h2>
 </body>
 <script>
-    let $ = s => document.querySelector(s);
-    let xhr = new XMLHttpRequest();
-    xhr.open('GET','http://localhost:8888/getWeather',true);
-    xhr.onload = ()=>{
-        $('span').innerText = JSON.parse(xhr.responseText).data;
-    }
-    xhr.send();
+    // let $ = s => document.querySelector(s);
+    // let xhr = new XMLHttpRequest();
+    // xhr.open('GET','http://localhost:8888/getWeather',true);
+    // xhr.onload = ()=>{
+    //     $('span').innerText = JSON.parse(xhr.responseText).data;
+    // }
+    // xhr.send();
 </script>
 </html>
